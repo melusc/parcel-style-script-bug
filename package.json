@@ -1,7 +1,7 @@
 {
 	"devDependencies": {
 		"del-cli": "^4.0.1",
-		"parcel": "^2.0.0-nightly.957"
+		"parcel": "2.0.0-nightly.1035"
 	},
 	"scripts": {
 		"parcel:w": "del-cli \"dist\" \".parcel-cache\" && parcel serve --dist-dir dist/ \"src/**/*.html\"",
